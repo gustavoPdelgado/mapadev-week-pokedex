@@ -1,0 +1,16 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    min-height: 100vh;/*Altura minima*/
+    display: flex; /*Pocisionar facilmente os elementos*/
+    align-items: center; /*Items dentro do elemento Main ficam alinhados ao centro, propriedades de elementos pai e filho, alinha verticalmente*/
+    justify-content: center; /*alinha horizontalmente*/
+    background-color: #dadfe8;
+}
+.pokedex{
+    display: flex;
+    gap: 30px; /*espaçamento entre elementos*/
+    padding: 30px 0; /*Espaçamento interno, 30px no topo e na base e 0px nas laterais*/
+    
+}

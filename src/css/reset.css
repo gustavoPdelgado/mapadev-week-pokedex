@@ -1,0 +1,9 @@
+* {/*Reset de predefinições do navegador*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*Todos os paddings e margens adicionados aos elementos, vão ser contidos na largura e altura desse elementos*/
+}
+
+ul{
+    list-style-type: none; /*tira as estilização padroes*/
+}
